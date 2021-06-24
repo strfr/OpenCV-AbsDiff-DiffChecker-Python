@@ -19,7 +19,7 @@ while (cv2.waitKey(1) < 0):
 
     cv2.imshow('video', diff)
     print(fps.calc_fps())
-    previous = image.copy()
+    previous = image
 
 capture.release()
 cv2.destroyAllWindows()
